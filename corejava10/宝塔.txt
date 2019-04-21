@@ -1,0 +1,15 @@
+100%[===================================================================================================================>] 1,099       --.-K/s   in 0s      
+
+2019-04-18 10:29:14 (192 MB/s) - ‘acme_install.sh’ saved [1099/1099]
+
+Starting Bt-Panel... Bt-Panel (pid 4597 4609) already running
+Starting Bt-Tasks... Bt-Tasks (pid 4623) already running
+==================================================================
+Congratulations! Installed successfully!
+==================================================================
+Bt-Panel: http://123.206.23.182:8888/5d72da9d
+username: p7vasilx
+password: 19e2778c
+Warning:
+If you cannot access the panel, 
+release the following port (8888|888|80|443|20|21) in the security group
