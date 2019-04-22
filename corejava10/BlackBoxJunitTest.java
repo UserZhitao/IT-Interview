@@ -13,27 +13,24 @@ public class BlackBoxJunitTest {
 
 	@Test
 	public void testTestOfRange() {
-
-
-		 BlackBoxJunitTest test1 = new  BlackBoxJunitTest();
-		 BlackBoxDemo. testOfEqualClass(-10,30);
+		 BlackBoxDemo. testOfRange(30,10);
 		 }
 
 	@Test
 	public void testTestOfEqualClass() {
-		BlackBoxDemo. testOfEqualClass(-10,30);
+		BlackBoxDemo. testOfEqualClass(30,10);
 	       
 	}
 	
 @Test
 	public void testTestOfBoundry() {
-		BlackBoxDemo.testOfBoundry(-10,30,29);
+		BlackBoxDemo.testOfBoundry(30,10,5);
 	}
 
 
 	@Test
 	public void testTestOfRandom() {
-		BlackBoxDemo. testOfRandom(-10,30,5);
+		BlackBoxDemo. testOfRandom(30,10,50);
 	}
 
 }
